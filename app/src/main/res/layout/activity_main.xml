@@ -10,6 +10,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:layout_margin="30dp"
         android:text="Escribe un mensaje y oprime el boton compartir prro >:v"
         android:textSize="20dp"
@@ -20,6 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
+        android:gravity="center"
         android:hint="Escribe tu mensaje"
 
         />
@@ -29,8 +31,7 @@
         android:layout_height="wrap_content"
         android:text="Compartir"
         android:layout_margin="30dp"
-        android:textColor="#ffff"
-        android:backgroundTint="#11346e"
+        android:background="@color/colorAccent"
 
         />
 
