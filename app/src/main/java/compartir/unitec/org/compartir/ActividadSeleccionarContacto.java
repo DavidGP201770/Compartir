@@ -57,7 +57,7 @@ public class ActividadSeleccionarContacto extends AppCompatActivity {
         @Override
         public View getView(int i, View view, ViewGroup parent) {
             if (view == null) {
-                view = LayoutInflater.from(parent.getContext()).inflate(R.layout.contacto, parent,
+                view = LayoutInflater.from(parent.getContext()).inflate(R.layout.seleccionar_contacto, parent,
                         false);
             }
             TextView textView = (TextView) view;
