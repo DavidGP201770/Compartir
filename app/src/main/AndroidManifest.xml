@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ActividadSeleccionarContacto" />
+        <activity android:name=".ActividadEnviarMensaje"></activity>
     </application>
 
 </manifest>
